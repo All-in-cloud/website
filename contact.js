@@ -9,7 +9,7 @@ $(document).ready(function() {
 
         $.ajax({
             type: "POST",
-            url: 'https://cx3mm18t8e.execute-api.eu-west-1.amazonaws.com/test/sender',
+            url: 'https://j1o99q2g7a.execute-api.eu-west-1.amazonaws.com/prod',
             crossDomain: true,
             contentType: 'application/json',
             data: JSON.stringify({
