@@ -1,0 +1,30 @@
+$(document).ready(function() {
+
+    $("#submit").click(function(e) {
+        e.preventDefault();
+
+        var name = $("#name").val(),
+            email = $("#email").val(),
+            message = $("#message").val();
+
+        $.ajax({
+            type: "POST",
+            url: 'https://cx3mm18t8e.execute-api.eu-west-1.amazonaws.com/test/sender',
+            crossDomain: true,
+            contentType: 'application/json',
+            data: JSON.stringify({
+                'name': name,
+                'email': email,
+                'message': message
+            }),
+            success: function(res){
+                $('#form-response').text('Vaše zpráva byla odeslána, děkujeme! Co nejdříve se Vám ozveme zpátky.');
+            },
+            error: function(){
+                $('#form-response').text('Došlo k chybě, omlouváme se! Zpráva nejspíš nebyla odeslána.');
+            }
+        });
+
+    })
+
+});
