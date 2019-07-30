@@ -15,14 +15,16 @@ h1 {
   font-size: 3rem;
   font-family: 'Tenor Sans', sans-serif;
   /* border-bottom: 1px solid #888; */
-  text-transform: uppercase
+  text-transform: uppercase;
+  text-align: center
 }
 
 h2 {
   font-size: 2rem;
   font-family: 'Tenor Sans', sans-serif;
   /* border-bottom: 1px solid #888; */
-  text-transform: uppercase
+  text-transform: uppercase;
+  text-align: center
 }
 
 h3 {
