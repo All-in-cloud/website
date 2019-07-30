@@ -37,8 +37,9 @@ h3 {
   font-family: 'Tenor Sans', sans-serif;
   /* border-bottom: 1px solid #888; */
   text-transform: uppercase;
+  text-align: center;
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 h4 {
