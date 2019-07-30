@@ -70,14 +70,14 @@ h6 {
 
 a {
   color: #1722da;
-  font-weight: bold;
+  font-weight: normal;
   text-decoration: underline;
 }
 
 a:hover {
   color: #1722da;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 img {
