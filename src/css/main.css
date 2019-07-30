@@ -19,7 +19,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -29,7 +29,7 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 h3 {
@@ -38,7 +38,7 @@ h3 {
   /* border-bottom: 1px solid #888; */
   text-transform: uppercase;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 h4 {
@@ -47,7 +47,7 @@ h4 {
   /* border-bottom: 1px solid #888; */
   text-transform: uppercase;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 h5 {
@@ -55,7 +55,7 @@ h5 {
   font-family: 'Tenor Sans', sans-serif;
   /* border-bottom: 1px solid ;
     margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 h6 {
@@ -64,7 +64,7 @@ h6 {
   /* border-bottom: 1px solid #888; */
   text-transform: uppercase;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 a {
